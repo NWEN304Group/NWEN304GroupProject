@@ -1,3 +1,4 @@
+/*Wang Zhen*/
 /*init style  */
 body, ul, p, h1, h2, h3, h4, dl, dd, form, input, textarea, select {
     padding-left: 0;
@@ -20,3 +21,21 @@ a {
 a:hover {
     text-decoration: underline;
 }
+
+body{
+    background: #fff url(../images/body_bg.png) repeat-x;
+}
+
+#top{ width:960px; height: 30px; margin: 0 auto;}
+
+.top_menu{ float: left;}
+.top_menu li{float: left;background: url(../images/top_icon.png) no-repeat 6px 0px;font-size: 13px;}
+.top_menu a{ color: #c0c0c0; font-size: 13px; line-height: 30px;padding-left: 18px;}
+.top_menu a:hover{color:#fff}
+.top_menu .no_dot{}
+
+.top_bar{float:right;}
+.top_bar li{float:left;}
+.top_bar a{ color: #fff; font-size: 13px; line-height: 30px;padding-left: 30px;}
+.top_bar .phone{background: url(../images/top_icon2.png) no-repeat -5px -33px;}
+.top_bar .help{background: url(../images/top_icon2.png) no-repeat -10px -69px;}
