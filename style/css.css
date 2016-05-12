@@ -39,3 +39,14 @@ body{
 .top_bar a{ color: #fff; font-size: 13px; line-height: 30px;padding-left: 30px;}
 .top_bar .phone{background: url(../images/top_icon2.png) no-repeat -5px -33px;}
 .top_bar .help{background: url(../images/top_icon2.png) no-repeat -10px -69px;}
+
+#header{width: 960px; height: 118px; margin: 0 auto; background: url("../images/shopping_bg.png") repeat-x;}
+#shopping{width: 260px;height: 118px;background: url(../images/shopping_title.png) no-repeat 300px 0;padding-right: 600px;border: 1px;solid:#fff;}
+#shopping p{
+    color: #f7f7f7;
+    font-size: 20px;
+    font-family: Arial;padding: 30px 0 0 84px;  }
+#shopping a{ display: block;width:114px;height:23px; background: url("../images/shopping_checkout.png") no-repeat 0 0; position: absolute;top:93px;left:104px ;}
+#shopping div{float:left;width:55px;height:80px;background: url(../images/shopping_bag.png) no-repeat;}
+
+#header h1{}
